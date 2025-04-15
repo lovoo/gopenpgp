@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+	"github.com/lovoo/gopenpgp/v3/internal"
 )
 
 func TestDetachedSignaturesWithUnknownPackets(t *testing.T) {

@@ -6,7 +6,8 @@ import (
 	"fmt"
 
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+
+	"github.com/lovoo/gopenpgp/v3/internal"
 )
 
 // decryptionHandle collects the configuration parameters to decrypt a pgp message.

@@ -11,7 +11,8 @@ import (
 	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	openpgp "github.com/ProtonMail/go-crypto/openpgp/v2"
 	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+
+	"github.com/lovoo/gopenpgp/v3/internal"
 )
 
 type verifyHandle struct {
