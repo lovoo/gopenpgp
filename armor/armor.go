@@ -9,7 +9,8 @@ import (
 
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
 	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
+
+	"github.com/lovoo/gopenpgp/v3/internal"
 )
 
 // ArmorKey armors input as a public key.

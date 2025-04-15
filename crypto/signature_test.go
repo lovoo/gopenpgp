@@ -12,8 +12,9 @@ import (
 	"github.com/ProtonMail/go-crypto/openpgp/packet"
 	"github.com/ProtonMail/gopenpgp/v3/armor"
 	"github.com/ProtonMail/gopenpgp/v3/constants"
-	"github.com/ProtonMail/gopenpgp/v3/internal"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/lovoo/gopenpgp/v3/internal"
 )
 
 const signedPlainText = "Signed message\n"
